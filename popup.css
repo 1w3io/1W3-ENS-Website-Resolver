@@ -1,0 +1,293 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    width: 400px;
+    font-size: 14px;
+    align-items: center;
+    height: 100%;
+
+  }
+  
+  .container {
+    background-color: #ffffff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  
+  h2 {
+    color: #1d1d1d;
+  }
+  
+.hidden {
+    display: none;
+  }
+  
+  .radio-inputs {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 0.5rem;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    box-shadow: 0 0 0px 1px rgba(0, 0, 0, 0.06);
+    padding: 0.25rem;
+    width: 300px;
+    font-size: 14px;
+  }
+
+  .radio-inputs label {
+    flex: 1 1 auto;
+    text-align: center;
+    padding: 0.5rem;
+    margin: 0.25rem;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease-in-out; 
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 200;
+    letter-spacing: 0.00938em;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    }
+   
+
+
+    .radio-inputs label:hover {
+        background-color: #DDD;
+        cursor: pointer;
+    }
+
+    .radio-inputs input[type="radio"] {
+        position: absolute;
+        opacity: 0;
+    }
+    
+    .radio-inputs input[type="radio"]:checked + label {
+        background-color: #6D28D9;
+        color: #ffffff;
+      
+       
+    }
+
+    .radio-inputs input[type="radio"]:focus + label {
+        box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12);
+    }
+
+    .radio-inputs input[type="radio"]:checked:focus + label {
+        box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12);
+    }
+
+    .radio-inputs input[type="radio"]:disabled + label {
+        opacity: 0.6;
+        cursor: not-allowed;
+       
+    }
+
+    .radio-inputs input[type="radio"]:disabled:checked + label {
+        opacity: 0.9;
+       
+    }
+
+    input[type="text"] {
+        margin-top: 20px;
+        border: 2px solid transparent;
+        width: 15em;
+        height: 2.5em;
+        padding-left: 0.8em;
+        outline: none;
+        overflow: hidden;
+        background-color: #F3F3F3;
+        border-radius: 10px;
+        transition: all 0.5s;
+      }
+      
+      input[type="text"]:hover,
+      input[type="text"]:focus {
+        border: 2px solid #6D28D9;
+        box-shadow: 0px 0px 0px 7px rgb(74, 157, 236, 20%);
+        background-color: white;
+      }
+      
+
+      button {
+        margin-top: 20px;
+        font-family: inherit;
+        font-size: 15px;
+        background: #ffffff;
+        color: #6D28D9;
+        fill: #6D28D9;
+        padding: 0.3em 0.5em;
+        padding-left: 0.7em;
+        display: flex;
+        align-items: center;
+        border: 2px solid #6D28D9;
+        border-radius: 10px;
+        font-weight: 500;
+        margin-left: 50px;
+        cursor: pointer;
+
+      }
+      
+      button span {
+        display: block;
+        margin-left: 0.3em;
+        transition: all 0.3s ease-in-out;
+      }
+      
+      button svg {
+        display: block;
+        transform-origin: center center;
+        transition: transform 0.3s ease-in-out;
+      }
+      
+      button:hover {
+        background: #6D28D9;
+      }
+      
+      button:hover .svg-wrapper {
+        transform: scale(1.25);
+        transition: .5s linear;
+      }
+      
+      button:hover svg {
+        transform: translateX(1.2em) scale(1.1);
+        fill: #fff;
+      }
+      
+      button:hover span {
+        opacity: 0;
+        transition: .5s linear;
+      }
+      
+      button:active {
+        transform: scale(0.95);
+      }
+      
+    
+      #changeGateway {
+        margin-left: 70px;
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 200;
+        letter-spacing: 0.00938em;
+        font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+        background: #6D28D9;
+        /* border: 2px solid #6D28D9; */
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+        margin-top: 20px;
+      }
+
+        #changeGateway :hover {
+            background: #ffffff;
+            color: #ffffff;
+        }
+
+      
+        .social-links,.flex-center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+          }
+          
+          .social-btn {
+            cursor: pointer;
+            height: 40px;
+            width: 40px;
+            font-family: 'Titillium Web', sans-serif;
+            color: #333;
+            border-radius: 10px;
+            box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+            background: white;
+            margin: 5px;
+            transition: 0.3s;
+            justify-content: center;
+          }
+          
+          .social-btn svg {
+            height: 20px;
+            width: 20px;
+          }
+          
+          .social-btn span {
+            width: 0px;
+            overflow: hidden;
+            transition: 0.3s;
+            text-align: center;
+          }
+          
+          .social-btn:hover {
+            width: 150px;
+            border-radius: 5px;
+          }
+          
+          .social-btn:hover span {
+            padding: 2px;
+            width: 80px;
+          }
+          
+          #twitter svg {
+            fill: #1da1f2;
+          }
+          
+          
+          #github {
+            fill: #333;
+          }
+          
+        
+
+      #customGatewaySaved {
+        color: #20873b;
+        font-size: 14px;
+        font-weight: 200;
+        letter-spacing: 0.00938em;
+        font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+        margin-top: 10px;
+      }
+
+      #recentSearches {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        max-height: 150px;
+        overflow-y: auto;
+      }
+      
+      #recentSearches li {
+        background-color: #f2f2f2;
+        margin-bottom: 5px;
+        padding: 10px;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      
+      #recentSearches li:hover {
+        background-color: #e0e0e0;
+      }
+      
+      .domain-name {
+        font-weight: bold;
+        margin-right: 10px;
+      }
+      
+      .search-date {
+        color: #555;
+        margin-right: 5px;
+      }
+      
+      .search-time {
+        color: #777;
+      }
+      
