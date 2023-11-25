@@ -34,4 +34,4 @@ Contributions are what make the open-source community such an amazing place to l
 - Open a Pull Request
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/1w3io/1W3-ENS-Website-Resolver/blob/main/LICENSE) file for details.
