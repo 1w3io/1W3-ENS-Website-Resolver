@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "1W3 - DWeb Gateway",
+  "name": "1W3 - ENS Website Resolver",
   "version": "1.0",
   "permissions": [
     "webNavigation",
