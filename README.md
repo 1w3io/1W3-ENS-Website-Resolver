@@ -1,7 +1,7 @@
-# 1W3 - dWeb Gateway
+# 1W3 - ENS Website Resolver
 
 ## Introduction
-"1W3 - dWeb Gateway" is a Chrome extension designed to be your portal to the decentralized web (dWeb). It enables effortless resolution of Ethereum Name Service (ENS) `.eth` domains, providing users with seamless access to decentralized content.
+"1W3 - ENS Website Resolver" is a Chrome extension designed to be your portal to the decentralized web (dWeb). It enables effortless resolution of Ethereum Name Service (ENS) `.eth` domains, providing users with seamless access to decentralized content.
 
 ## Features
 - **Seamless dWeb Access**: Directly navigate to `.eth` domains, connecting users with the decentralized web.
