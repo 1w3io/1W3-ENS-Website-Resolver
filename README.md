@@ -1,5 +1,7 @@
 # 1W3 - ENS Website Resolver
 
+https://github.com/1w3io/1W3-ENS-Website-Resolver/assets/146073025/53341150-6b0b-4db0-9407-a1aacaeb7a4e
+
 ## Introduction
 "1W3 - ENS Website Resolver" is a Chrome extension designed to be your portal to the decentralised web (dWeb). It enables effortless resolution of Ethereum Name Service (ENS) `.eth` domains, providing users with seamless access to decentralised content.
 
