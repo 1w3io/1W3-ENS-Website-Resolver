@@ -1,10 +1,10 @@
 # 1W3 - ENS Website Resolver
 
 ## Introduction
-"1W3 - ENS Website Resolver" is a Chrome extension designed to be your portal to the decentralized web (dWeb). It enables effortless resolution of Ethereum Name Service (ENS) `.eth` domains, providing users with seamless access to decentralized content.
+"1W3 - ENS Website Resolver" is a Chrome extension designed to be your portal to the decentralized web (dWeb). It enables effortless resolution of Ethereum Name Service (ENS) `.eth` domains, providing users with seamless access to decentralised content.
 
 ## Features
-- **Seamless dWeb Access**: Directly navigate to `.eth` domains, connecting users with the decentralized web.
+- **Seamless dWeb Access**: Directly navigate to `.eth` domains, connecting users with the decentralised web.
 - **Custom Gateway Option**: Allows users to specify a custom IPFS gateway for resolving `.eth` domains.
 - **Informative Redirects**: In cases where a .eth domain cannot be resolved (e.g., due to missing hash in the records), users are redirected to eth.lk. eth.lk dynamically fetches and displays additional ENS records and details for the queried domain from ensrecords.xyz, enhancing user understanding and engagement with the ENS ecosystem.
 - **Privacy-Conscious**: No user data is collected, stored, or transmitted.
